@@ -1,4 +1,4 @@
-package algorithms
+package repeatedString
 
 func RepeatedStirngs(s string, n int64) int64 {
 

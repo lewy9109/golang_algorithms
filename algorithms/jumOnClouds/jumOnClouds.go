@@ -1,4 +1,4 @@
-package algorithms
+package jumOnClouds
 
 func JumpingOnClouds(c []int32) int32{
 	var jump int32 = 0;
