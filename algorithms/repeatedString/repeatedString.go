@@ -8,21 +8,25 @@ func RepeatedStirngs(s string, n int64) int64 {
 		return n
 	}
 
-	fullString := ContactString(s, int(n))
+	//fullString := ContactString(s, int(n))
 
 	
 	return n
 }
 
 func ContactString (s string, n int) string {
+	var cs string = ""
+	var lengBasicString = len(s)
 
-	if(len(s) <= n){
-		s += s
-		ContactString(s, n)
+	for i := 0; i < n; i += lengBasicString {
+		cs += s
 	}
-
-	if (len(s) % n != 0){
+	rest := len(cs)
+	
+	if (rest % n != 0){
 		
 	}
-	return s
+
+
+	return cs
 }
