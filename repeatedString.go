@@ -12,7 +12,6 @@ func RepeatedStirngs(s string, n int64) int64 {
 	var counts int64
 
 	for _, v := range fullString {
-		//string(v) == string([]rune(pow)[0])
 		if string(v) == string([]rune(s)[0]) {
 			counts++
 		}
