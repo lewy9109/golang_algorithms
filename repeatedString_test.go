@@ -2,12 +2,10 @@ package repeatedString
 
 import "testing"
 
-func TestRepetedString(t *testing.T) {
-	text := "aba"
+func TestContactString(t *testing.T) {
+	text := "abcac"
 	var n int64 = 10
-
-	var want int64 = 7
-
+	var want int64 = 4
 	result := RepeatedStirngs(text, n)
 
 	if want != result {
@@ -15,12 +13,10 @@ func TestRepetedString(t *testing.T) {
 	}
 }
 
-func TestTestRepetedStringSecond(t *testing.T) {
-	text := "abcac"
+func TestContactStringSecond(t *testing.T) {
+	text := "a"
 	var n int64 = 10
-
-	var want int64 = 4
-
+	var want int64 = 10
 	result := RepeatedStirngs(text, n)
 
 	if want != result {
