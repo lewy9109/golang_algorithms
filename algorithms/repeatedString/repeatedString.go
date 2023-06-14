@@ -8,12 +8,12 @@ func RepeatedStirngs(s string, n int64) int64 {
 		return n
 	}
 
-	firstLetter := s[0]
 	fullString := ContactString(s, n)
 	var counts int64
 
 	for _, v := range fullString {
-		if string(v) == string(firstLetter) {
+		//string(v) == string([]rune(pow)[0])
+		if string(v) == string([]rune(s)[0]) {
 			counts++
 		}
 	}

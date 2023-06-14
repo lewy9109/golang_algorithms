@@ -13,7 +13,7 @@ func TestContactString(t *testing.T) {
 	}
 }
 
-func TestContactString(t *testing.T) {
+func TestContactStringSecond(t *testing.T) {
 	text := "a"
 	var n int64 = 10
 	var want int64 = 10
