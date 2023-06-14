@@ -2,40 +2,24 @@ package repeatedString
 
 import "testing"
 
-
 func TestContactString(t *testing.T) {
-	text := "abc"
-	want := "abcabcabc"
+	text := "abcac"
+	var n int64 = 10
+	var want int64 = 4
+	result := RepeatedStirngs(text, n)
 
-	result := ContactString(text, 10)
-	
 	if want != result {
 		t.Errorf("got %q, wanted %q", result, want)
 	}
 }
 
-// func TestRepetedString(t *testing.T) {
-// 	text := "aba"
-// 	var n int64 = 10
+func TestContactString(t *testing.T) {
+	text := "a"
+	var n int64 = 10
+	var want int64 = 10
+	result := RepeatedStirngs(text, n)
 
-// 	var want int64 = 7
-
-// 	result := RepeatedStirngs(text, n)
-
-// 	if want != result {
-// 		t.Errorf("got %q, wanted %q", result, want)
-// 	}
-// }
-
-// func TestTestRepetedStringSecond(t *testing.T) {
-// 	text := "abcac"
-// 	var n int64 = 10
-
-// 	var want int64 = 4
-
-// 	result := RepeatedStirngs(text, n)
-
-// 	if want != result {
-// 		t.Errorf("got %q, wanted %q", result, want)
-// 	}
-// }
+	if want != result {
+		t.Errorf("got %q, wanted %q", result, want)
+	}
+}
