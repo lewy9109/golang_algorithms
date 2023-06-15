@@ -1,3 +1,3 @@
-module github.com/lewy9109/go_mvc
+module github.com/lewy9109/golang_algorithms
 
-go 1.18
+go 1.20
