@@ -1,4 +1,4 @@
-package main
+package golang_algorithms
 
 func RepeatedStirngs(s string, n int64) int64 {
 

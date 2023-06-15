@@ -1,4 +1,4 @@
-package main 
+package golang_algorithms
 
 func JumpingOnClouds(c []int32) int32{
 	var jump int32 = 0;
