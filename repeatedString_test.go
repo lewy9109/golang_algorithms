@@ -1,4 +1,4 @@
-package repeatedString
+package main
 
 import "testing"
 

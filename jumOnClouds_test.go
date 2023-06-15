@@ -1,4 +1,4 @@
-package jumOnClouds
+package main
 
 import "testing"
 

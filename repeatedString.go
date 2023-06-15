@@ -1,4 +1,4 @@
-package repeatedString
+package main
 
 func RepeatedStirngs(s string, n int64) int64 {
 
