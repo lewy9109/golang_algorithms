@@ -11,15 +11,14 @@ func RepeatedStirngs(s string, n int64) int64 {
 	fullString := ContactString(s, n)
 	var counts int64
 
-	for i, v := range fullString {	
-            if i > int(n) {
-                break
-            }
-                if string(v) == string([]rune(s)[0]) {
-                        counts++
-                }
-        }
-
+	for i, v := range fullString {
+		if i > int(n) {
+			break
+		}
+		if string(v) == string([]rune(s)[0]) {
+			counts++
+		}
+	}
 
 	return counts
 }
